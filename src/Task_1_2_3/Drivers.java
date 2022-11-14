@@ -24,7 +24,7 @@ public class Drivers {
         System.out.print("Masukkan Hari: ");
         Hari = c.nextInt();
     }
-    public static void Output(){
+    static void Output(){
         System.out.print(Hari+" Hari : " +cn.ConvertTahun(Hari)+" Tahun " +cn.ConvertBulan(Hari)+" Bulan "+cn.ConvertHari(Hari)+ " Hari");
     }
 }
